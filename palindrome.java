@@ -30,3 +30,5 @@ Scanner x=new Scanner(System.in);
 s=x.nextLine();
 x.close();
 char[] v=s.toCharArray();
+  Main obj=new Main();
+  obj.isPalindrome(v);
