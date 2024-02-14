@@ -16,3 +16,11 @@ public static void main(String args[]) {
 	System.out.println(Geometry.distance(x1,x2,y1,y2));
 }
 }
+package One;
+
+public class Geometry {
+    static double distance(double x1, double x2, double y1, double y2) {
+        return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    }
+}
+
