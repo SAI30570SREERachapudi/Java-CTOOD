@@ -1,4 +1,4 @@
-Design a class named Stock that contains:
+/*Design a class named Stock that contains:
  A string data field named symbol for the stock’s symbol.
  A string data field named name for the stock’s name.
  A double data field named previousClosingPrice that stores the stock 
@@ -14,7 +14,7 @@ closing price of 34.5. Set a new current price to 34.35 and display the pricech
 2. Stock symbol MC, the name Microsoft Corporation, and the previous 
 closing price of 85.5. Set a new current price to 24.35 and display the pricechange percentage.
 Class Diagram:
-Program:
+Program:*/
 public class Stock {
  private String symbol;
  private String name;
